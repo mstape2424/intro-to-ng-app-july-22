@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'New app for Angular';
-  author: string = 'Michaelton Stapington the IVth'
+  author: string = 'by Michaelton Stapington the IVth'
 }
