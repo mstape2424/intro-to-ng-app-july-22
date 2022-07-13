@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PokemonDetail, PokemonList } from '../models';
 @Component({
   selector: 'app-pokemon',
   templateUrl: './pokemon.component.html',
@@ -74,21 +75,5 @@ export class PokemonComponent implements OnInit {
   ngOnInit(): void {
   }
 }
-interface PokemonDetail {
-  id: string;
-  name: string;
-  image: string;
-  type: string;
-  height: number;
-  weight: number;
-}
-interface PokemonList {
-  count: number;
-  next: string;
-  previous: string;
-  results: PokemonListItem[];
-}
-interface PokemonListItem {
-  name: string;
-  url: string;
-}
+
+
